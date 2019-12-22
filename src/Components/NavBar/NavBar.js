@@ -1,7 +1,7 @@
 import React from "react";
 import {NavLink} from 'react-router-dom'
 import SearchInput from "../Commons/SearchInput/SearchInput";
-import ProfilePic from "../../Images/ProfilePic.png"
+import ProfilePic from "../../Images/profile.png"
 
 export default function NavBar() {
   return (
@@ -45,7 +45,7 @@ export default function NavBar() {
             <li className="nav-item">
               <NavLink className="nav-link" to="/user">
                 <span>Hello</span> Oluwaleke Ojo
-                <img src={ProfilePic} alt="profile image"/>
+                <img src={ProfilePic} alt="profile avatar"/>
               </NavLink>
             </li>
           </ul>
