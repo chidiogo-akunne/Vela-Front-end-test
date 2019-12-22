@@ -5,7 +5,7 @@ export default function SearchInput(props) {
     <div>
       <form class="form-inline my-2 my-lg-0">
         <input
-          class="form-control mr-sm-2"
+          className="form-control mr-sm-2"
           type="search"
           placeholder={props.placholder}
           aria-label="Search"
