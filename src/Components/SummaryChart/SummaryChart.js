@@ -34,6 +34,6 @@ export default function SummaryChart() {
 }
 
 const ChartCard = {
-    height: '20rem',
+    height: '23rem',
     padding: '1.5rem'
 }
