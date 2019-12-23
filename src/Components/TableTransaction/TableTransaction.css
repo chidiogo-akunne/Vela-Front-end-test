@@ -1,3 +1,7 @@
+.table{
+    overflow-x: auto;
+}
+
 .tableBody {
     background-color: #fff;
     color: #414042;
@@ -41,5 +45,17 @@
 
 .pending{
     color: #4949f2;
+}
+
+@media (max-width: 991.98px) {
+    .angle-table{
+        display: none;
+    }
+    .tableBody{
+        font-size: 12px;
+    }
+    .btn-outline-secondary{
+        font-size: 12px;
+    }
 }
 

@@ -1,12 +1,10 @@
-import React, {useState} from "react";
+import React from "react";
 import Data from "../../Data/data";
 import Button from "../Commons/Button/Button";
 import './TableTransaction.css'
 
 export default function TableTransaction(props) {
-  const [transaction, setTransaction] = useState([
-    {status: "Reconciled", status: "Pending", status: "Un-reconciled"}
-  ]);
+  
   return (
     <div className={props.className}>
       <table class="table">
@@ -42,7 +40,7 @@ export default function TableTransaction(props) {
                 <i class="fas fa-circle"></i> Pending
                 </Button>
                 )}
-                <i class="fas fa-angle-down pl-3"></i>
+                <i class="fas fa-angle-down angle-table pl-3"></i>
               </td>
             </tr>
           ))}
@@ -52,10 +50,3 @@ export default function TableTransaction(props) {
   );
 }
 
-const reconciled = {
-    color: 'yellow'
-}
-
-const pending = {
-    color: 'blue'
-}
