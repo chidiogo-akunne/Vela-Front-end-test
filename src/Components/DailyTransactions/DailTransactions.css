@@ -11,3 +11,13 @@
     font-size: 18px;
     padding-left: 0.5rem;
 }
+
+@media (max-width: 991.98px) { 
+    .transaction-Price{
+        font-size: 16px;
+    } 
+
+    .transaction-P{
+        font-size: 10px;
+    }
+ }
