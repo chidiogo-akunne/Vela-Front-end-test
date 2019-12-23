@@ -1,0 +1,45 @@
+.tableBody {
+    background-color: #fff;
+    color: #414042;
+    font-size: 14px;
+}
+
+.badgePill {
+    padding: 0.3rem;
+    border-radius: 50%;
+    background:#7F8FA4;
+    color: #fff;
+}
+
+.thead-light{
+    background-color: #EAEEF0;
+    color: #7F8FA4;
+    font-size: 14px;
+}
+
+.btn-outline-secondary{
+    min-width: 8rem;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+}
+
+.fa-circle{
+    font-size: 10px;
+    padding-right: 1rem;
+}
+
+.reconciled{
+    color: #f2f21a;
+}
+
+.unreconciled{
+    color: #2bbd2b;
+}
+
+.pending{
+    color: #4949f2;
+}
+
