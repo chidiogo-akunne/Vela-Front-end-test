@@ -30,3 +30,11 @@
     padding-top: 1.5rem;
     padding-bottom: 0.5rem;
 }
+
+@media (max-width: 991.98px) {
+    .sideNav-Ul {
+        font-size: 12px;
+        padding-left: 2rem;
+    }
+}
+
