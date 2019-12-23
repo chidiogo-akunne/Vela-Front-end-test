@@ -1,14 +1,15 @@
 import React from "react";
+import './DailTransactions.css';
 import Card from "../Commons/Card/Card";
 
 export default function DailyTransactions(props) {
   return (
     <div>
-      <Card>
+      <Card style={transactionCardStyle}>
         <div className="row">
           <div className="col-sm-8">
-            <p>Daily Transaction {props.title}</p>
-            <p>{props.price}</p>
+            <p className="transaction-P">Daily Transaction {props.title}</p>
+            <p className="transaction-Price"><span>&#8358;</span>{props.price}</p>
           </div>
           <div className="col-sm-4">
               Chart
@@ -17,4 +18,8 @@ export default function DailyTransactions(props) {
       </Card>
     </div>
   );
+}
+
+const transactionCardStyle = {
+    borderRadius: '0',
 }
