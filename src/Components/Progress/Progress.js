@@ -16,6 +16,9 @@ export default function Progress(props) {
             aria-valuemax="100"
           ></div>
         </div>
+        <p>Pending Orders: 20</p>
+        <p>Reconciled Orders: 80</p>
+        <p>TOtal Orders: 100</p>
       </Card>
     </div>
   );
