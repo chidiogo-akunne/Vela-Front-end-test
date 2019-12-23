@@ -23,7 +23,7 @@ export default function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse nav-bg" id="navbarSupportedContent">
           <form className="form-inline my-2 my-lg-0">
             <SearchInput placeholder="Search..." SearchStyle="searchStyle" />
           </form>
@@ -40,15 +40,15 @@ export default function NavBar() {
             </li>
             <li className="nav-item navbarSpace">
               <NavLink className="nav-link" to="/notificatiom">
-                <i className="far fa-bell"></i>
+                <i className="far fa-bell"></i><span className="notificationBadge">8</span>
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item username">
               <NavLink className="nav-link" to="/user">
                 <span className="userName">Hello</span> Oluwaleke Ojo
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item username">
               <NavLink className="nav-link" to="/profile">
                 <img src={ProfilePic} alt="profile avatar" className="profilePic"/>
               </NavLink>
