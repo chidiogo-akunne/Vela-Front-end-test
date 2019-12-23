@@ -7,7 +7,7 @@ import ProfilePic from "../../Images/profile.png";
 export default function NavBar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <NavLink className="navbar-brand" to="/">
           TransMonitor
         </NavLink>
