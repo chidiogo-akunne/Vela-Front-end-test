@@ -4,6 +4,7 @@ import NavBar from '../Components/NavBar/NavBar'
 import SideNav from '../Components/SideNav/SideNav'
 import DailyTransactions from '../Components/DailyTransactions/DailyTransactions'
 import SummaryChart from '../Components/SummaryChart/SummaryChart';
+import Progress from '../Components/Progress/Progress';
 
 export default function Index() {
     return (
@@ -33,6 +34,10 @@ export default function Index() {
                             <div className="col-lg-8 col-md-12">
                                 <SummaryChart/>
                             </div>
+                            <div className="col-lg-4 col-md-12">
+                                <Progress title="Orders"/>
+                                <Progress title="Payments" className="progresStyle"/>
+                            </div>
                         </div>
 
                     </div>
@@ -43,3 +48,4 @@ export default function Index() {
         </div>
     )
 }
+
