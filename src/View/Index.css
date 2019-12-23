@@ -10,3 +10,27 @@
     margin-top: 2rem;
 }
 
+.table-Header{
+    display: flex;
+    color: #262626;
+    font-size: 13px;
+}
+
+.heading-Dropdown{
+    color: #1875F0;
+    font-size: 14px;
+    padding: 0 1rem;
+}
+
+.tableSearch{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid #787878;
+}
+
+.drop-down-toggle-table::after{
+    margin-left: 5rem;
+}
+
