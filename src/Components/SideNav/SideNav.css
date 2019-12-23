@@ -1,0 +1,32 @@
+.sideNav {
+    background-color: #fff;
+    padding-top: 2rem;
+}
+
+.btn-success {
+    background: #27AE60;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.sideNav-Ul{
+    list-style-type: none;
+    font-size: 14px;
+    color:#647787;
+    padding-left: 3.5rem;
+}
+
+.sideNav-Link{
+    color: #647787;
+    padding-left: 1rem;
+    line-height: 2rem;
+}
+
+.sideNav-Space{
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
