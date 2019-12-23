@@ -1,7 +1,8 @@
 import React from "react";
-import {NavLink} from 'react-router-dom'
+import { NavLink } from "react-router-dom";
+import "./NavBar.css";
 import SearchInput from "../Commons/SearchInput/SearchInput";
-import ProfilePic from "../../Images/profile.png"
+import ProfilePic from "../../Images/profile.png";
 
 export default function NavBar() {
   return (
@@ -24,28 +25,32 @@ export default function NavBar() {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <form className="form-inline my-2 my-lg-0">
-           <SearchInput placeholder="Search..."/>
+            <SearchInput placeholder="Search..." SearchStyle="searchStyle" />
           </form>
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
+            <li className="nav-item navbarSpace">
               <NavLink className="nav-link" to="/support">
-                Support 
+                Support
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="#/faq">
+            <li className="nav-item navbarSpace">
+              <NavLink className="nav-link" to="/faq">
                 FAQ
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item navbarSpace">
               <NavLink className="nav-link" to="/notificatiom">
                 <i className="far fa-bell"></i>
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/user">
-                <span>Hello</span> Oluwaleke Ojo
-                <img src={ProfilePic} alt="profile avatar"/>
+                <span className="userName">Hello</span> Oluwaleke Ojo
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/profile">
+                <img src={ProfilePic} alt="profile avatar" className="profilePic"/>
               </NavLink>
             </li>
           </ul>
