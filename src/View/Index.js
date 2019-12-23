@@ -8,6 +8,8 @@ import SummaryChart from "../Components/SummaryChart/SummaryChart";
 import Progress from "../Components/Progress/Progress";
 import SearchInput from "../Components/Commons/SearchInput/SearchInput";
 import Button from "../Components/Commons/Button/Button";
+import TableTransaction from "../Components/TableTransaction/TableTransaction";
+import Footer from "../Components/Footer/Footer";
 
 
 export default function Index() {
@@ -15,7 +17,7 @@ export default function Index() {
     <div>
       <NavBar />
       <div className="row">
-        <div className="col-3">
+        <div className="col-3 Side">
           <SideNav />
         </div>
         <div className="col-9">
@@ -45,7 +47,7 @@ export default function Index() {
             </div>
             <h4 className="index-Row">Payments</h4>
             <div className="row">
-              <div className="col-4">
+              <div className="col-lg-4 col-sm-12">
                 <span className="table-Header">
                   Showing
                   <div className="dropdown">
@@ -73,10 +75,10 @@ export default function Index() {
                   out of 500 payments
                 </span>
               </div>
-            <div className="col-4">
-                <SearchInput placeholder="Serach Payments" SearchStyle="tableSearch"/>
+            <div className="col-lg-4 col-sm-12">
+                <SearchInput placeholder="Search Payments" SearchStyle="tableSearch"/>
             </div>
-            <div className="col-4 table-Header">
+            <div className="col-lg-4 col-sm-12 table-Header">
                 Show
             <div className="dropdown pl-4">
                             <Button className="btn btn-light dropdown-toggle drop-down-toggle-table" dataToggle="dropdown">
@@ -92,7 +94,10 @@ export default function Index() {
                         </div>
             </div>
             </div>
+            <TableTransaction className="index-Row"/>
+          <Footer />
           </div>
+          
         </div>
       </div>
     </div>
