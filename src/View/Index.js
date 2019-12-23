@@ -3,6 +3,7 @@ import './Index.css';
 import NavBar from '../Components/NavBar/NavBar'
 import SideNav from '../Components/SideNav/SideNav'
 import DailyTransactions from '../Components/DailyTransactions/DailyTransactions'
+import SummaryChart from '../Components/SummaryChart/SummaryChart';
 
 export default function Index() {
     return (
@@ -28,7 +29,11 @@ export default function Index() {
                                 <DailyTransactions title="Value" price="4,000,000"/>
                             </div>
                         </div>
-
+                        <div className="row index-Row">
+                            <div className="col-lg-8 col-md-12">
+                                <SummaryChart/>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
