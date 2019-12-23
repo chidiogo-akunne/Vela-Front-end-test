@@ -38,3 +38,30 @@
     margin-left: 5rem;
 }
 
+@media (max-width: 991.98px) { 
+   .transaction-Q{
+       margin-top: 1rem;
+   } 
+
+   .progress-Q{
+       margin-top: 2rem;
+   }
+
+   .tableSearch{
+       display: none;
+   }
+
+   .fa-search{
+       display: none;
+   }
+
+   .table-Header{
+       padding-top: 1rem;
+   }
+}
+
+@media (max-width: 575.98px) {
+    .transaction-Q2{
+        margin-top: 1rem;
+    }
+}

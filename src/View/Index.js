@@ -17,22 +17,22 @@ export default function Index() {
     <div>
       <NavBar />
       <div className="row">
-        <div className="col-3 Side">
+        <div className="col-md-3 col-sm-12 Side">
           <SideNav />
         </div>
-        <div className="col-9">
+        <div className="col-md-9 col-sm-12">
           <div className="container">
             <div className="row index-Row">
-              <div className="col-lg-3 col-sm-6">
+              <div className="col-lg-3 col-sm-6 transaction-Q2">
                 <DailyTransactions title="Volume" price="2,342" />
               </div>
-              <div className="col-lg-3 col-sm-6">
+              <div className="col-lg-3 col-sm-6 transaction-Q2">
                 <DailyTransactions title="Value" price="4,000,000" />
               </div>
-              <div className="col-lg-3 col-sm-6">
+              <div className="col-lg-3 col-sm-6 transaction-Q">
                 <DailyTransactions title="Volume" price="452,000" />
               </div>
-              <div className="col-lg-3 col-sm-6">
+              <div className="col-lg-3 col-sm-6 transaction-Q">
                 <DailyTransactions title="Value" price="4,000,000" />
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function Index() {
               <div className="col-lg-8 col-md-12">
                 <SummaryChart />
               </div>
-              <div className="col-lg-4 col-md-12">
+              <div className="col-lg-4 col-md-12 progress-Q">
                 <Progress title="Orders" />
                 <Progress title="Payments" className="progresStyle" />
               </div>
@@ -53,7 +53,6 @@ export default function Index() {
                   <div className="dropdown">
                     <div
                       className=" dropdown-toggle heading-Dropdown"
-                      href="#"
                       role="button"
                       id="dropdownMenuLink"
                       data-toggle="dropdown"
@@ -62,7 +61,6 @@ export default function Index() {
                     >
                       20
                     </div>
-
                     <div
                       className="dropdown-menu"
                       aria-labelledby="dropdownMenuLink"
