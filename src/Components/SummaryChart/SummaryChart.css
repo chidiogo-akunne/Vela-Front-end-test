@@ -1,0 +1,13 @@
+.chart-H6{
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-light{
+    background: #e2e6ea;
+    color: #7F8FA4;
+    font-size: 12px;
+    border: 1px solid #dae0e5;;
+    border-radius: 5px;
+}

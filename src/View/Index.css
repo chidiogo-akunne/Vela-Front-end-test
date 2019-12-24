@@ -1,0 +1,67 @@
+.container{
+    padding-right: 2.5rem;
+}
+
+.Side{
+    background-color: #fff;
+}
+
+.index-Row{
+    padding-top: 2rem;
+}
+
+.progresStyle{
+    margin-top: 2rem;
+}
+
+.table-Header{
+    display: flex;
+    color: #262626;
+    font-size: 13px;
+}
+
+.heading-Dropdown{
+    color: #1875F0;
+    font-size: 14px;
+    padding: 0 1rem;
+}
+
+.tableSearch{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid #787878;
+}
+
+.drop-down-toggle-table::after{
+    margin-left: 5rem;
+}
+
+@media (max-width: 991.98px) { 
+   .transaction-Q{
+       margin-top: 1rem;
+   } 
+
+   .progress-Q{
+       margin-top: 2rem;
+   }
+
+   .tableSearch{
+       display: none;
+   }
+
+   .fa-search{
+       display: none;
+   }
+
+   .table-Header{
+       padding-top: 1rem;
+   }
+}
+
+@media (max-width: 575.98px) {
+    .transaction-Q2{
+        margin-top: 1rem;
+    }
+}

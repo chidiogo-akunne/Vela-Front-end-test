@@ -1,0 +1,84 @@
+.navbar {
+    height: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background: #FFFFFF!important;
+    box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07) !important;
+    z-index: 4;
+}
+
+.navbar-brand {
+    color: #1875F0 !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.searchStyle {
+    border: none;
+    background-color: transparent;
+    color: #979797;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    padding-left: 4px;
+}
+
+.nav-link {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    color: #647787;
+}
+
+.userName {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    line-height: 10px
+}
+
+.profilePic {
+    border-radius: 50%;
+}
+
+.fa-bell {
+    font-size: 16px;
+}
+
+.notificationBadge{
+    padding: 1px 4px;
+    background-color: #1875F0;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 8px;
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.4rem;
+}
+
+.navbarSpace {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+@media (max-width: 991.98px) {
+
+    .nav-bg{
+        background-color: #fff;
+        box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07) !important;
+        z-index: 4;
+    }
+
+    .fa-search{
+        padding-left: 1.5rem !important;
+    }
+
+    .userName{
+        justify-content: flex-start;
+    }
+
+    .username{
+        padding-left: 1.5rem;
+    }
+ }

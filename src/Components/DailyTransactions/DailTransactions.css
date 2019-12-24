@@ -1,0 +1,23 @@
+.transaction-P{
+    color: #787C90;
+    font-family: 'Segoe UI';
+    font-size: 13px;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+
+.transaction-Price{
+    font-size: 18px;
+    padding-left: 0.5rem;
+}
+
+@media (max-width: 991.98px) { 
+    .transaction-Price{
+        font-size: 16px;
+    } 
+
+    .transaction-P{
+        font-size: 10px;
+    }
+ }
