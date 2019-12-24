@@ -1,7 +1,8 @@
 import React from 'react';
 import './SummaryChart.css';
-import Card from '../Commons/Card/Card'
-import Button from '../Commons/Button/Button'
+import Card from '../Commons/Card/Card';
+import Button from '../Commons/Button/Button';
+import LargeChart from '../Charts/LargeChart'
 
 export default function SummaryChart() {
     return (
@@ -27,7 +28,7 @@ export default function SummaryChart() {
                       <Button className="btn btn-light ml-2"><i class="fas fa-angle-right"></i></Button> 
                     </div>
                 </div>
-                Graph
+                <LargeChart/>
             </Card>
         </div>
     )
