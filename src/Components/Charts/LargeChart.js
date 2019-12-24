@@ -7,16 +7,10 @@ function LargeChart(props) {
     selection: 'one_year',
     options: {
       annotations: {
-        // yaxis: [
-        //   {
-        //     y: 30,
-        //     borderColor: '#999',
-        //   },
-        // ],
+        
         xaxis: [
           {
-            // x: new Date('14 Nov 2012').getTime(),
-            // borderColor: '#999',
+            
             yAxisIndex: 0,
             label: {
               show: true,
@@ -32,19 +26,7 @@ function LargeChart(props) {
       dataLabels: {
         enabled: false,
       },
-      // markers: {
-      //   size: 0,
-      //   style: 'hollow',
-      // },
-      // xaxis: {
-      //   type: 'datetime',
-      //   min: new Date('01 Mar 2012').getTime(),
-      // },
-      // tooltip: {
-      //   x: {
-      //     format: 'dd MMM yyyy'
-      //   }
-      // },
+      
       fill: {
         type: 'gradient',
         gradient: {
