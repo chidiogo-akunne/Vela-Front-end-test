@@ -17,10 +17,10 @@ export default function Index() {
     <div>
       <NavBar />
       <div className="row">
-        <div className="col-md-3 col-sm-12 Side">
+        <div className="col-md-2 col-sm-12 Side">
           <SideNav />
         </div>
-        <div className="col-md-9 col-sm-12">
+        <div className="col-md-10 col-sm-12">
           <div className="container">
             <div className="row index-Row">
               <div className="col-lg-3 col-sm-6 transaction-Q2">
