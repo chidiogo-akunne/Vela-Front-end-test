@@ -3,7 +3,7 @@ import ReactApexChart from 'react-apexcharts';
 import './LargeChart.css';
 
 function LargeChart(props) {
-  const [state, setState] = useState({
+  const [state] = useState({
     selection: 'one_year',
     options: {
       annotations: {
